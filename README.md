@@ -29,3 +29,6 @@ Follow these steps to start the Kalman_Bot setup:
     ```bash
     rosrun imu_to_degrees imu_listener_node.py
     ```
+    ** This runs the python script responsible for publishing the yaw
+   ` imu/yaw` as publisher
+   ` imu/data` as subscriber**
