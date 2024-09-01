@@ -29,26 +29,3 @@ Follow these steps to start the Kalman_Bot setup:
     ```bash
     rosrun imu_to_degrees imu_listener_node.py
     ```
-
-## Copy Commands
-
-Click the button below to copy all the commands:
-
-<button onclick="copyCommands()">Copy All Commands</button>
-
-<script>
-function copyCommands() {
-    const commands = `
-roscore
-roslaunch turtlebot3_gazebo turtlebot3_world.launch
-roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
-roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-rosrun imu_to_degrees imu_listener_node.py
-    `;
-    navigator.clipboard.writeText(commands).then(() => {
-        alert('Commands copied to clipboard!');
-    }, (err) => {
-        console.error('Failed to copy commands: ', err);
-    });
-}
-</script>
