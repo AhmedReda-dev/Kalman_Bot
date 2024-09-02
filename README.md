@@ -1,5 +1,7 @@
 # Kalman_Bot Setup Instructions
 
+##final release is in branch "master"
+
 Follow these steps to start the Kalman_Bot setup:
 
 1. **Start the ROS core:**
